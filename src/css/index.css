@@ -1,0 +1,126 @@
+body{
+    background-color: azure;
+    
+}
+
+#report{
+    background-color: hsl(252, 100%, 67%);
+    border-radius: 15%;
+    width: 250px;
+    height: 400px;
+    color: whitesmoke;
+}
+
+#circulo{
+    display: flex;
+    margin-left: 13%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: hsla(256, 72%, 46%, 1);
+    border: 2px solid ;
+    border-radius: 100%;
+    height: 40%;
+    width: 70%;
+    
+}
+
+#porcentagen{
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+}
+
+#total{
+   justify-content: center;
+   align-items: flex-end;
+    font-size: 15px;
+}
+
+.centralizado{
+    display: flex;
+    justify-content: center;
+}
+
+#texto-p.centralizado{
+    padding-top: 15%;
+}
+
+#t1{
+    text-align: center;
+}
+
+#status{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 15%;
+    width: 350px;
+    height: 400px;
+    padding-left: 2%;
+}
+
+#sumuario{
+    padding-top: 2%;
+    text-align:left ;
+}
+
+#botao{
+    margin-top: 5%;
+    margin-left: 5%;
+    width: 75%;
+    height: 10%;
+    background-color: black;
+    color: white;
+    border-radius: 50px 50px 50px 50px;
+
+}
+
+.balao{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    border: 1px solid black;
+    padding: 3%;
+    margin-right: 5%;
+    margin-bottom: 3%;
+    margin-top: 3%;
+    border-radius: 8px 8px 8px 8px;
+}
+
+#reaction{
+    color: red;
+    background-color: hsl(10, 100%, 67%);
+}
+
+#memory{
+    color: yellow;
+    background-color: hsl(50, 100%, 56%);
+}
+
+#verbal{
+    color: green;
+    background-color: hsl(70, 100%, 37%);
+}
+
+#visual{
+    color: aqua;
+    background-color: hsl(270, 85%, 45%);
+}
+
+.escuro{
+    color: black;
+}
+
+.claro{
+    color: gray;
+}
+
+#menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 95vh;
+}
